@@ -109,7 +109,7 @@
                     <div class="col-lg-5 px-5 text-start">
                         <div class="h-100 d-inline-flex align-items-center me-4">
                             <span class="fa fa-phone-alt me-2"></span>
-                            <a href="javascript:void(0)" id="contact-link" class="text-decoration-none" style="color: white;">+918287700609</a>
+                            <a href="javascript:void(0)" id="contact-link" class="text-decoration-none" style="color: white;">+</a>
                         </div>
                         <div class="h-100 d-inline-flex align-items-center">
                             <i class="fa fa-envelope me-3"></i>
@@ -565,10 +565,10 @@ var contactLink = document.getElementById('contact-link');
 // Set the appropriate behavior based on the device
 if (isMobile()) {
     // For mobile, clicking the link should start a call
-    contactLink.setAttribute('href', 'tel:+918287700609');
+    contactLink.setAttribute('href', 'tel:+');
 } else {
     // For desktop, clicking the link should open WhatsApp
-    contactLink.setAttribute('href', 'https://wa.me/918287700609');
+    contactLink.setAttribute('href', 'https://wa.me/');
 }
 </script>
 </body>
